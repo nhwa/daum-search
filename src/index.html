@@ -13,9 +13,62 @@
       href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
     <style>
-      .list {
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      ul {
+        width: 100%;
+        overflow: hidden;
+      }
+      li {
+        list-style: none;
+      }
+      #list {
         margin: 10px;
-        padding: 10px;
+      }
+      #list li {
+        padding: 20px;
+        width: 280px;
+        height: 350px;
+        float: left;
+      }
+      #list .wrapper {
+        height: 200px;
+      }
+      #list li img {
+        width: 100%;
+        height: 100%;
+      }
+      #list div {
+        padding-top: 20px;
+        min-height: 50px;
+        font-size: medium;
+      }
+      #list .totalview {
+        font-size: small;
+        color: #999;
+      }
+      #loading .glyphicon-refresh {
+        animation: spin 2s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      #viewMore {
+        display: none;
+        margin: 50px auto;
+      }
+      .show {
+        display: block;
       }
     </style>
   </head>
@@ -26,27 +79,28 @@
       <div>
         <ul class="nav nav-tabs">
           <!-- 선택된탭:선택된 탭에 .active    -->
-          <li class="active"><a href="#">트렌딩</a></li>
-          <li><a href="#">이슈</a></li>
-          <li><a href="#">엔터</a></li>
+          <li id="trending" class="active"><a href="#">트렌딩</a></li>
+          <li id="issue"><a href="#">이슈</a></li>
+          <li id="enter"><a href="#">엔터</a></li>
         </ul>
       </div>
 
       <div id="list">
-        여기서 각 리스트 뿌려주기 <br /><br />
-
+        <!-- 여기서 각 리스트 뿌려주기 <br /><br />
         http://1boon.kakao.com/ch/trending.json <br />
         http://1boon.kakao.com/ch/issue.json <br />
-        http://1boon.kakao.com/ch/enter.json <br />
+        http://1boon.kakao.com/ch/enter.json <br /> -->
 
         <!-- 로딩마크업: 로딩중일때만 표시 -->
-        <div class="text-center">
+        <!-- <div id="loading" class="text-center">
           <span class="glyphicon glyphicon-refresh"></span> 로딩중
-        </div>
+        </div> -->
       </div>
 
       <div class="text-center">
-        <button type="button" class="btn btn-default">더보기</button>
+        <button type="button" id="viewMore" class="btn btn-default">
+          더보기
+        </button>
       </div>
     </div>
   </body>
