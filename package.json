@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack && copyfiles -f docs/* ../docs",
+    "build": "webpack && copyfiles -f dist/* ../docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

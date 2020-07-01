@@ -8,11 +8,19 @@ module.exports = {
     path: `${__dirname}/docs`,
   },
   devServer: {
-    contentBase: './dist',
+    contentBase: './docs',
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 };
