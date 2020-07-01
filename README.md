@@ -16,6 +16,6 @@
 ![image](https://user-images.githubusercontent.com/44343908/86258604-f3ce8100-bbf5-11ea-83c8-a9dd06cc868e.png)
 ![image](https://user-images.githubusercontent.com/44343908/86258618-f92bcb80-bbf5-11ea-9638-da3898e33fa7.png)
 <br /><br />
-##  #list 클릭시
+##  #list 클릭시 path로 이동
 ![image](https://user-images.githubusercontent.com/44343908/86259463-01d0d180-bbf7-11ea-8de4-a263b78b1ab4.png)
 
