@@ -1,4 +1,5 @@
 # #고급웹개발 기말고사과제 - 1boon 서비스 만들기
+제주대학교 컴퓨터공학전공 2019208014 김난화
 <br /><br />
 ##  #loading 화면
 ![image](https://user-images.githubusercontent.com/44343908/86257923-262bae80-bbf5-11ea-8eec-04f0a24a05f4.png)
