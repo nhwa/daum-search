@@ -3,6 +3,9 @@
 <br /><br />
 ##  #loading 화면
 ![image](https://user-images.githubusercontent.com/44343908/86257923-262bae80-bbf5-11ea-8eec-04f0a24a05f4.png)
+![image](https://user-images.githubusercontent.com/44343908/86260180-e6b29180-bbf7-11ea-8f4a-e8d7052cd5c4.png)
+![image](https://user-images.githubusercontent.com/44343908/86260221-f4681700-bbf7-11ea-8a65-0dca0806dc9a.png)
+
 <br /><br />
 ##  #채널 탭 화면
 ![image](https://user-images.githubusercontent.com/44343908/86258148-74d94880-bbf5-11ea-8008-4d1ac82fdf2d.png)
