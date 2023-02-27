@@ -1,6 +1,6 @@
 START-FE
 =============
-### 고급웹개발 - 1boon 서비스 만들기
+### 고급웹개발 - Daum 1boon 서비스 만들기
 
 #### SKILL  
 `HTML5, CSS, JavasCript`
