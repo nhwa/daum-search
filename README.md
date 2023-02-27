@@ -13,7 +13,7 @@ START-FE
 - fetch api 사용
 - html-rendering, loading&hiding, opentab, moreview 구현
 - 기능 모듈화, 함수화
-- eslint, prettier, webpack, babel 사용
+- eslint, prettier, webpack, babel 설정
 
 -------------
 <br />
