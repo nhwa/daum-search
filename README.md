@@ -13,7 +13,6 @@ Daum 1boon 서비스 만들기
 -------------
 
 ### kakao 1boon 사이트 url을 통해 가져온 데이터를 활용하여 1boon 서비스 구축
-#### 요구사항
 - fetch api 사용
 - html-rendering, loading&hiding, opentab, moreview 구현
 - 기능 모듈화, 함수화
