@@ -1,5 +1,6 @@
 Daum 1boon 서비스 만들기
 =============
+> 개인 Project
 
 #### SKILL  
 ` HTML5, CSS, JavasCript `
@@ -39,10 +40,8 @@ https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-AJAX-%EC%84%9C%EB%B2%84-%EC%9A%94
 
 구현 기능
 fetch API를 이용하여 GET 방식으로 HTTP 요청
--
+- 데이터 조회 CRUD : R - GET  
 * REST API https://meetup.nhncloud.com/posts/92
-
-
 
 ```
 function fetchData(tab, pagenum) {
@@ -54,9 +53,9 @@ function fetchData(tab, pagenum) {
       const datas = json.data;
       render(datas);
     })
-    .catch(error);
-```
+    .catch(error);   
 }
+```
 
 
 -------------
