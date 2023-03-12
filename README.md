@@ -10,7 +10,6 @@ Daum 1boon 서비스 만들기
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></p>
 
 -------------
-<br />
 
 ### kakao 1boon 사이트 url을 통해 가져온 데이터를 활용하여 1boon 서비스 구축
 #### 요구사항
@@ -37,6 +36,28 @@ fetch('ajax_intro_data.txt')
 
 https://inpa.tistory.com/entry/JS-%F0%9F%93%9A-AJAX-%EC%84%9C%EB%B2%84-%EC%9A%94%EC%B2%AD-%EB%B0%8F-%EC%9D%91%EB%8B%B5-fetch-api-%EB%B0%A9%EC%8B%9D
 <br />
+
+구현 기능
+fetch API를 이용하여 GET 방식으로 HTTP 요청
+-
+* REST API https://meetup.nhncloud.com/posts/92
+
+
+
+```
+function fetchData(tab, pagenum) {
+  showLoading();
+  fetch(`${$tabs[tab].url}?&pagesize=${pagesize}&page=${pagenum}&callback=`)
+    .then((response) => response.json())
+    .then((json) => {
+      hideLoading();
+      const datas = json.data;
+      render(datas);
+    })
+    .catch(error);
+```
+}
+
 
 -------------
 
